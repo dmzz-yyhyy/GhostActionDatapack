@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": ""
+  },
+  "effects": {
+    "minecraft:post_piercing_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "ghost_action:item/gun/snipe/aim"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": ["paper"],
+  "weight": 1
+}

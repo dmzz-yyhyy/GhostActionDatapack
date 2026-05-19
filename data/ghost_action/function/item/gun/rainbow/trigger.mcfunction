@@ -1,0 +1,16 @@
+execute if score @s gun_use_cd matches 1.. run return fail
+$scoreboard players set @s gun_use_cd $(cd)
+
+execute if data entity @s {SelectedItem: {components: {"minecraft:custom_data": {item: "gun/rainbow", state: half}}}} run item replace entity @s weapon.mainhand with air
+execute if data entity @s {SelectedItem: {components: {"minecraft:custom_data": {item: "gun/rainbow", state: full}}}} run item replace entity @s weapon.mainhand with paper[custom_data={type: item, item: "gun/rainbow", cd: 3, state: half}, item_name={translate: "prop.rainbow", color: "blue", bold: true}, lore=[{translate: "prop.rainbow.l1", color: "light_purple"}], item_model="ghost_action:prop/rainbow_rifle_half", max_stack_size=1, consumable={animation: bow, consume_seconds: 1145140721}, use_effects={can_sprint: true, speed_multiplier: 1}]
+
+execute at @s run playsound item.crossbow.shoot voice @s ~ ~ ~ 4 2
+execute at @s run playsound item.crossbow.shoot voice @a[distance=..60,tag=!source] ~ ~ ~ 1 2
+
+execute anchored eyes positioned ^ ^ ^0.8 run function ghost_action:utils/racasting/raycasting {\
+    throughable: "#ghost_action:throughable",\
+    particle1: "minecraft:dust{color: [1.0, 0.0, 0.0], scale: 0.9}",\
+    particle2: "minecraft:dust{color: [0.502, 0.0, 1.0], scale: 0.9}",\
+    on_hit: "ghost_action:item/gun/rainbow/hurt",\
+    distance: 200\
+}

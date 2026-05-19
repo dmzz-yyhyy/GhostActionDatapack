@@ -1,0 +1,1 @@
+scoreboard objectives add smoke_bomb_timer dummy

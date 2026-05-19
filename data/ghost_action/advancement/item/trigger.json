@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data":"{type: item}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ghost_action:item/item_use_trigger"
+    }
+}

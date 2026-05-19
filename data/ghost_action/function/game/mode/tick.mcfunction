@@ -1,0 +1,1 @@
+execute if data storage ghost_action:game_state {is_gaming:1b} run function ghost_action:game/mode/_tick with storage ghost_action:game_state current_mode

@@ -1,0 +1,1 @@
+function ghost_action:game/lobby/map_change/_sync_text with storage ghost_action:game_state

@@ -1,0 +1,1 @@
+return run function ghost_action:item/prop/bomb/is_in_bomb_point_inline with entity @s equipment.mainhand.components."minecraft:custom_data"

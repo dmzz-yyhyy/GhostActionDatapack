@@ -1,0 +1,1 @@
+kill @n[tag=bomb_point]

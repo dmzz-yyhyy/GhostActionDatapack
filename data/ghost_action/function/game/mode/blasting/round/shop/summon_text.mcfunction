@@ -1,0 +1,1 @@
+$summon text_display ~ ~ ~ {Tags:[shop_entity],alignment:"center",billboard:"center",brightness:{sky:15,block:15},glow_color_override:-1,background:0,text:{"text": "￥$(price)", "color": "blue","bold": true}}

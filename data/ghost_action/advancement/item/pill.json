@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "requirement":{
+            "trigger": "entity_hurt_player"
+        }
+    },
+    "rewards": {
+        "function": "ghost_action:item/prop/pill/cancel_regeneration"
+    }
+}

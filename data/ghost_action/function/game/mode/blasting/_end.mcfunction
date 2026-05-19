@@ -1,0 +1,1 @@
+$function ghost_action:game/mode/blasting/round/$(state)/end with storage ghost_action:game_state game

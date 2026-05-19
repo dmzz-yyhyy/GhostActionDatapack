@@ -1,0 +1,1 @@
+summon minecraft:text_display 31 2.1 2 {text: {translate: "team.random", color: "yellow"}, billboard: "center", background: 0}

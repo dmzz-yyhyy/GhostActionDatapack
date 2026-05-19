@@ -1,0 +1,1 @@
+$return run data modify storage ghost_action:game_state current_map set from storage ghost_action:game_state current_mode.maps[$(map_index)] 

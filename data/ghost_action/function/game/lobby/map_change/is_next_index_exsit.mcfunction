@@ -1,0 +1,1 @@
+return run function ghost_action:game/lobby/map_change/_is_next_index_exsit with storage ghost_action:game_state

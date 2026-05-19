@@ -1,0 +1,1 @@
+give @s paper[custom_data={item_type: gun, type: item, item: "gun/pistol", cd: 7}, item_name={translate: "gun.pistol", color: "blue", bold: true}, lore=[{translate: "gun.pistol.l1", color: "light_purple"}], item_model="ghost_action:gun/pistol", max_stack_size=1, consumable={animation: bow, consume_seconds: 1145140721}, use_effects={can_sprint: true, speed_multiplier: 1}]

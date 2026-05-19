@@ -1,0 +1,2 @@
+summon block_display ~ ~ ~ {block_state: {Name: "beacon"}, Glowing: true, Tags: [blasting_crystal, source], transformation: {translation: [-0.4, 0, -0.4], scale: [0.8f, 0.8f, 0.8f], left_rotation: [0f, 0f, 0f, 1f], right_rotation: [0f, 0f, 0f, 1f]}}
+tag @e remove source

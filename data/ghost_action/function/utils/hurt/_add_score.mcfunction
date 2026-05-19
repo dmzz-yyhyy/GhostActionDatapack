@@ -1,0 +1,1 @@
+$scoreboard players add add math $(number)

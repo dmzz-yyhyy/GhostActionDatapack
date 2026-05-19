@@ -1,0 +1,1 @@
+$function ghost_action:game/mode/$(id)/tick with storage ghost_action:game_state

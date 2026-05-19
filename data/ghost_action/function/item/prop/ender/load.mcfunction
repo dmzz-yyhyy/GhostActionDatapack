@@ -1,0 +1,3 @@
+scoreboard objectives add ender_kill totalKillCount
+scoreboard objectives add ender_kill_use_timer dummy
+scoreboard objectives add ender_timer dummy

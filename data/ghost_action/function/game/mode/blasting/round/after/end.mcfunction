@@ -1,0 +1,1 @@
+function ghost_action:game/mode/blasting/round/red_win

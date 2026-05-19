@@ -1,0 +1,9 @@
+function ghost_action:item/gun/laser/give
+function ghost_action:item/gun/reconnaissance_rifle/give
+function ghost_action:item/gun/armor_piercing_rifle/give
+function ghost_action:item/gun/walker_rifle/give
+function ghost_action:item/gun/machinegun/give
+function ghost_action:item/gun/kalashnikov/give
+function ghost_action:item/gun/shotgun/give
+function ghost_action:item/gun/snipe/give
+function ghost_action:item/gun/pistol/give

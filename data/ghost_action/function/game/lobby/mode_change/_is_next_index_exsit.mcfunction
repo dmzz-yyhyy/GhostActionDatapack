@@ -1,0 +1,1 @@
+$return run data get storage ghost_action:game_state all_modes[$(mode_index)]

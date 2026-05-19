@@ -1,0 +1,19 @@
+{
+    "values": [
+        "ghost_action:tick",
+        "ghost_action:item/tick",
+        "ghost_action:item/gun/tick",
+        "ghost_action:utils/hurt/tick",
+        "ghost_action:item/gun/snipe/tick",
+        "ghost_action:item/prop/minecart/tick",
+        "ghost_action:item/prop/grenade/tick",
+        "ghost_action:item/prop/smoke_bomb/tick",
+        "ghost_action:item/prop/swift/tick",
+        "ghost_action:item/prop/furious/tick",
+        "ghost_action:item/prop/ender/tick",
+        "ghost_action:item/prop/bomb/tick",
+        "ghost_action:item/prop/kit/tick",
+        "ghost_action:game/lobby/tick",
+        "ghost_action:game/mode/tick"
+    ]
+}

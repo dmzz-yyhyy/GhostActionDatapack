@@ -1,0 +1,1 @@
+$tellraw @a[team=red] {translate: "prop.bombpack.to", color: "blue", with: [{text: "$(x)", color: "yellow"}, {text: "$(y)", color: "yellow"}, {text: "$(z)", color: "yellow"}]}

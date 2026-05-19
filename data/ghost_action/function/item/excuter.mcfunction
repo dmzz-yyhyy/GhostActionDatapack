@@ -1,0 +1,1 @@
+$function ghost_action:item/$(item)/trigger with entity @s SelectedItem.components."minecraft:custom_data"

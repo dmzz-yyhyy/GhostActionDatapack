@@ -1,0 +1,1 @@
+$execute store result storage ghost_action:temp damage double 1 run data get storage ghost_action:hurt_record "$(UUID)" 100

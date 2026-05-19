@@ -1,0 +1,1 @@
+scoreboard objectives add swift_timer dummy

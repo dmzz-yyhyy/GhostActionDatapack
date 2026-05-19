@@ -1,0 +1,1 @@
+$data modify storage ghost_action:hurt_record "$(UUID)" set value $(damage)

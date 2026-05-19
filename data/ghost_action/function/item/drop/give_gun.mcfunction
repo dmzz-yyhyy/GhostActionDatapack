@@ -1,0 +1,1 @@
+$function ghost_action:item/$(item)/give

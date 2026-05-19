@@ -1,0 +1,1 @@
+scoreboard objectives add kit_timer dummy

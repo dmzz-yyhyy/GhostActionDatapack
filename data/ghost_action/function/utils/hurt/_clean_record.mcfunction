@@ -1,0 +1,1 @@
+$data remove storage ghost_action:hurt_record $(UUID)

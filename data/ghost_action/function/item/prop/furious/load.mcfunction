@@ -1,0 +1,1 @@
+scoreboard objectives add furious_timer dummy

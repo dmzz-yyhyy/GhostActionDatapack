@@ -1,0 +1,1 @@
+execute if score timer blasting_timer matches 95 as @a[tag=gaming] at @s run kill @e[tag=planted_bomb]

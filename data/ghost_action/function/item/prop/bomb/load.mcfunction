@@ -1,0 +1,4 @@
+scoreboard objectives add bomb_timer dummy
+scoreboard objectives add boom_second_timer dummy
+scoreboard objectives add boom_micro_second_timer dummy
+scoreboard objectives add boom_sound_timer dummy

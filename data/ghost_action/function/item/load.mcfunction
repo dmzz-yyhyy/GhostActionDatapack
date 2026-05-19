@@ -1,0 +1,1 @@
+scoreboard objectives add prop_drop_counter dummy

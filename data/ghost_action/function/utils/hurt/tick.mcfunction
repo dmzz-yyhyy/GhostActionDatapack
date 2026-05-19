@@ -1,0 +1,1 @@
+#execute as @e if data entity @s {HurtTime:0s} run function ghost_action:utils/hurt/_clean_record with entity @s

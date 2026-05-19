@@ -1,0 +1,21 @@
+{
+    "values": [
+        "#replaceable",
+        "#leaves",
+        "#fences",
+        "torch",
+        "#doors",
+        "#leaves",
+        "glass_pane",
+        "#trapdoors",
+        "barrier",
+        "#wool_carpets",
+        "vine",
+        "#buttons",
+        "#slabs",
+        "#signs",
+        "glass_pane",
+        "red_stained_glass",
+        "blue_stained_glass_pane"
+    ]
+}

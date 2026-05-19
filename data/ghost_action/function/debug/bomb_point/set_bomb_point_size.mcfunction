@@ -1,0 +1,2 @@
+$data modify entity @n[tag=bomb_point] equipment.mainhand.components."minecraft:custom_data".dx set value $(dx)
+$data modify entity @n[tag=bomb_point] equipment.mainhand.components."minecraft:custom_data".dz set value $(dz)

@@ -1,0 +1,1 @@
+execute as @e[tag=mode_text, type=text_display] run data modify entity @s text set from storage ghost_action:game_state current_mode.name

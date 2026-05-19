@@ -1,0 +1,1 @@
+$execute rotated ~$(rotation) ~$(facing) run function $(function)

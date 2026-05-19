@@ -1,0 +1,1 @@
+function ghost_action:game/end_game with storage ghost_action:game_state current_mode

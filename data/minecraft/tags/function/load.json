@@ -1,0 +1,19 @@
+{
+    "values": [
+        "ghost_action:load",
+        "ghost_action:item/load",
+        "ghost_action:item/gun/load",
+        "ghost_action:item/prop/minecart/load",
+        "ghost_action:item/prop/grenade/load",
+        "ghost_action:item/prop/smoke_bomb/load",
+        "ghost_action:item/prop/swift/load",
+        "ghost_action:item/prop/furious/load",
+        "ghost_action:item/prop/ender/load",
+        "ghost_action:item/prop/bomb/load",
+        "ghost_action:item/prop/kit/load",
+
+        "ghost_action:game/lobby/load",
+        "ghost_action:game/load",
+        "ghost_action:game/mode/blasting/load"
+    ]
+}

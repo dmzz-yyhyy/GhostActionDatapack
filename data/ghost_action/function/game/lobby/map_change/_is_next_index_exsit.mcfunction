@@ -1,0 +1,1 @@
+$return run data get storage ghost_action:game_state current_mode.maps[$(map_index)]

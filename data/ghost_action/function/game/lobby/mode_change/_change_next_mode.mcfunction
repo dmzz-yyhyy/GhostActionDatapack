@@ -1,0 +1,1 @@
+$return run data modify storage ghost_action:game_state current_mode set from storage ghost_action:game_state all_modes[$(mode_index)] 

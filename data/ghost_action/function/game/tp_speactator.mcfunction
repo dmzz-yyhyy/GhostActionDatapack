@@ -1,0 +1,1 @@
+$tp @a[team=spectator] @n[tag=spectator_spawn, tag=$(id)]
