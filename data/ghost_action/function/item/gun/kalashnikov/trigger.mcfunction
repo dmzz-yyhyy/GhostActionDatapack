@@ -2,7 +2,7 @@ execute if score @s gun_use_cd matches 3.. if entity @s[tag=furious] run scorebo
 
 execute if score @s gun_use_cd matches 1.. run return fail
 
-execute at @s run playsound minecraft:item.trident.hit voice @a[distance=..60] ~ ~ ~ 1 0.6
+execute at @s run playsound minecraft:item.spear.hit voice @a[distance=..60] ~ ~ ~ 1 2
 
 $scoreboard players set @s gun_use_cd $(cd)
 execute if score @s gun_use_tick matches 30.. run scoreboard players add @s gun_use_cd 90
