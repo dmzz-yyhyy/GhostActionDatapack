@@ -54,3 +54,5 @@ execute as @a \
     run kill @s
 scoreboard players reset * blasting_online
 scoreboard players set @a blasting_online 0
+
+execute as @a if score @s blasting_coins matches 701.. run scoreboard players set @s blasting_coins 700

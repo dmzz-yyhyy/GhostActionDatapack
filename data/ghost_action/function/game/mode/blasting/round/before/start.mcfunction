@@ -1,5 +1,6 @@
 scoreboard players set timer blasting_timer 2000
 
+function ghost_action:item/clear_droped
 function ghost_action:game/mode/blasting/round/clear_bossbar
 bossbar set blasting_before_plant visible true
 

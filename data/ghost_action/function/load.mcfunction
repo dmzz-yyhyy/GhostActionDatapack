@@ -7,8 +7,8 @@ scoreboard objectives add death_trigger deathCount
 scoreboard objectives add math dummy
 scoreboard objectives add score dummy {translate: "scoreboard.score", color: "gold"}
 scoreboard objectives add online dummy
-scoreboard players set red score 0
-scoreboard players set blue score 0
+execute if data storage ghost_action:game_state {is_gaming:0b} run scoreboard players set red score 0
+execute if data storage ghost_action:game_state {is_gaming:0b} run scoreboard players set blue score 0
 scoreboard players display name red score {"translate":"team.red", color: "red"}
 scoreboard players display name blue score {"translate":"team.blue", color: "blue"}
 

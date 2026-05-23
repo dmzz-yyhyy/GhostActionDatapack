@@ -1,5 +1,6 @@
 scoreboard players set timer blasting_timer 400
 
+function ghost_action:item/clear_droped
 function ghost_action:game/mode/blasting/round/clear_bossbar
 bossbar set blasting_buy visible true
 
