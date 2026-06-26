@@ -19,13 +19,15 @@ summon item_display ~0 ~1.9 ~14 {Tags:[shop_item, shop_entity],billboard:"center
 #矿车
 summon item_display ~0 ~1.9 ~15 {Tags:[shop_item, shop_entity],billboard:"center",brightness:{sky:15,block:15},glow_color_override:-1,item:{id:"minecraft:paper",count:1b,components:{item_model: "ghost_action:prop/minecart", custom_data: {type: prop, price: 40, item: "prop/minecart"}}}}
 #幽灵激光枪
-summon item_display ~0 ~1.9 ~6 {Tags:[shop_item, shop_entity],billboard:"center",brightness:{sky:15,block:15},glow_color_override:-1,item:{id:"minecraft:paper",count:1b,components:{item_model: "ghost_action:gun/laser", custom_data: {type: gun, price: 125, item: "gun/laser"}}}}
+summon item_display ~0 ~1.9 ~6 {Tags:[shop_item, shop_entity],billboard:"center",brightness:{sky:15,block:15},glow_color_override:-1,item:{id:"minecraft:paper",count:1b,components:{item_model: "ghost_action:gun/laser", custom_data: {type: gun, price: 100, item: "gun/laser"}}}}
 #幽灵行者
 summon item_display ~0 ~3.1 ~6 {Tags:[shop_item, shop_entity],billboard:"center",brightness:{sky:15,block:15},glow_color_override:-1,item:{id:"minecraft:paper",count:1b,components:{item_model: "ghost_action:gun/walker_rifle", custom_data: {type: gun, price: 125, item: "gun/walker_rifle"}}}}
 #幽灵狙击枪
 summon item_display ~0 ~1.9 ~3 {Tags:[shop_item, shop_entity],billboard:"center",brightness:{sky:15,block:15},glow_color_override:-1,item:{id:"minecraft:paper",count:1b,components:{item_model: "ghost_action:gun/sniper_rifle", custom_data: {type: gun, price: 250, item: "gun/snipe"}}}}
+#专注机枪
+summon item_display ~0 ~3.1 ~3 {Tags:[shop_item, shop_entity],billboard:"center",brightness:{sky:15,block:15},glow_color_override:-1,item:{id:"minecraft:paper",count:1b,components:{item_model: "ghost_action:gun/machinegun", custom_data: {type: gun, price: 175, item: "gun/machinegun"}}}}
 #幽灵散弹枪
-summon item_display ~0 ~3.1 ~3 {Tags:[shop_item, shop_entity],billboard:"center",brightness:{sky:15,block:15},glow_color_override:-1,item:{id:"minecraft:paper",count:1b,components:{item_model: "ghost_action:gun/shotgun", custom_data: {type: gun, price: 75, item: "gun/shotgun"}}}}
+summon item_display ~0 ~3.1 ~5 {Tags:[shop_item, shop_entity],billboard:"center",brightness:{sky:15,block:15},glow_color_override:-1,item:{id:"minecraft:paper",count:1b,components:{item_model: "ghost_action:gun/shotgun", custom_data: {type: gun, price: 75, item: "gun/shotgun"}}}}
 #幽灵侦察枪
 summon item_display ~0 ~1.9 ~4 {Tags:[shop_item, shop_entity],billboard:"center",brightness:{sky:15,block:15},glow_color_override:-1,item:{id:"minecraft:paper",count:1b,components:{item_model: "ghost_action:gun/reconnaissance_rifle", custom_data: {type: gun, price: 125, item: "gun/reconnaissance_rifle"}}}}
 #幽灵穿甲枪
