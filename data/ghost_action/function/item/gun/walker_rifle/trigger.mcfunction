@@ -3,7 +3,9 @@ $scoreboard players set @s gun_use_cd $(cd)
 
 execute if entity @s[tag=furious] run scoreboard players remove @s gun_use_cd 1
 
-execute at @s run playsound minecraft:item.trident.hit voice @s ~ ~ ~ 3 2
+execute at @s run playsound minecraft:item.trident.hit voice @s ~ ~ ~ 1 2
+execute at @s run playsound minecraft:item.hoe.till voice @s ~ ~ ~ 1 2
+
 execute at @s run playsound minecraft:item.trident.hit voice @a[distance=..60,tag=!source] ~ ~ ~ 1 2
 
 execute anchored eyes positioned ^ ^ ^0.8 run function ghost_action:utils/racasting/raycasting {\

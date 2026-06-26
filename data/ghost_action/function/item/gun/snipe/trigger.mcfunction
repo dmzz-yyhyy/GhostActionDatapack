@@ -9,8 +9,8 @@ execute at @s run playsound minecraft:item.trident.hit voice @a[distance=..80] ~
 
 execute if entity @s[tag=aim] if data entity @s {OnGround: true} anchored eyes positioned ^ ^ ^0.8 run function ghost_action:item/gun/snipe/_shoot
 execute if entity @s[tag=aim] if data entity @s {OnGround: false} anchored eyes positioned ^ ^ ^0.8 run function ghost_action:utils/random/random_raotation_excute {\
-    min: -200,\
-    max: 200,\
+    min: -150,\
+    max: 150,\
     function: "ghost_action:item/gun/snipe/_shoot"\
 }
 execute unless predicate ghost_action:is_shift if entity @s[tag=!aim] if entity @s[tag=!furious] anchored eyes positioned ^ ^ ^0.8 run function ghost_action:utils/random/random_raotation_excute {\
@@ -24,8 +24,8 @@ execute if predicate ghost_action:is_shift if data entity @s {OnGround: false} i
     function: "ghost_action:item/gun/snipe/_shoot"\
 }
 execute if predicate ghost_action:is_shift if data entity @s {OnGround: true} if entity @s[tag=!aim] if entity @s[tag=!furious] anchored eyes positioned ^ ^ ^0.8 run function ghost_action:utils/random/random_raotation_excute {\
-    min: -300,\
-    max: 300,\
+    min: -200,\
+    max: 200,\
     function: "ghost_action:item/gun/snipe/_shoot"\
 }
 execute if entity @s[tag=!aim] if entity @s[tag=!furious] if entity @s[tag=furious_snipe_first_shooted] anchored eyes positioned ^ ^ ^0.8 run function ghost_action:utils/random/random_raotation_excute {\
