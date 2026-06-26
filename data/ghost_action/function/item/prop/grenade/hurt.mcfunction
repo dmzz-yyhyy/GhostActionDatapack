@@ -1,0 +1,5 @@
+execute at @n[tag=grenade] as @s[distance=..15] run damage @s 1 player_explosion by @n[tag=source]
+execute at @n[tag=grenade] as @s[distance=..8] run damage @s 1.5 player_explosion by @n[tag=source]
+execute at @n[tag=grenade] as @s[distance=..6] run damage @s 2 player_explosion by @n[tag=source]
+execute at @n[tag=grenade] as @s[distance=..4] run damage @s 3 player_explosion by @n[tag=source]
+execute at @n[tag=grenade] as @s[distance=..2] run damage @s 5 player_explosion by @n[tag=source]

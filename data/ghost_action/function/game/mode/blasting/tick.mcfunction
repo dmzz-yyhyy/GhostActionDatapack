@@ -16,7 +16,7 @@ execute as @a[tag=gaming] \
     if score @s blasting_coin_kill matches 1.. \
     run scoreboard players reset @s blasting_coin_kill
 
-execute as @a[tag=gaming] at @s run spawnpoint @s ~ ~ ~ ~ ~
+#execute as @a[tag=gaming] at @s run spawnpoint @s ~ ~ ~ ~ ~
 
 execute as @a[tag=gaming, team=red] \
     if score @s blasting_death matches 1.. \
@@ -35,6 +35,8 @@ execute as @a[tag=gaming] \
 
 execute as @a[gamemode=spectator, team=red] run spectate @n[team=red, gamemode=!spectator] @s
 execute as @a[gamemode=spectator, team=blue] run spectate @n[team=blue, gamemode=!spectator] @s
+execute as @a[gamemode=spectator, team=red] at @s unless entity @a[team=red, gamemode=!spectator,distance=..1.5] run tp @s @n[team=red, gamemode=!spectator]
+execute as @a[gamemode=spectator, team=blue] at @s unless entity @a[team=blue, gamemode=!spectator,distance=..1.5] run tp @s @n[team=blue, gamemode=!spectator]
 
 function ghost_action:game/mode/blasting/crystal/tick
 

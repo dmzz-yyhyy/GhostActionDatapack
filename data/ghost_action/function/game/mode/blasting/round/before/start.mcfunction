@@ -12,6 +12,9 @@ kill @e[tag=droped_bomb]
 $execute at @n[tag=blasting_bomb_spawn, tag=$(id)] run function ghost_action:item/prop/bomb/summon_bomb
 $execute at @n[tag=blasting_red_spawn, tag=$(id)] rotated ~ ~ run tp @a[team=red] ~ ~ ~ ~ ~
 $execute at @n[tag=blasting_blue_spawn, tag=$(id)] rotated ~ ~ run tp @a[team=blue] ~ ~ ~ ~ ~
+$execute at @n[tag=blasting_red_spawn, tag=$(id)] rotated ~ ~ run spawnpoint @a[team=red] ~ ~ ~ ~ ~
+$execute at @n[tag=blasting_blue_spawn, tag=$(id)] rotated ~ ~ run spawnpoint @a[team=blue] ~ ~ ~ ~ ~
+
 
 kill @e[tag=blasting_crystal]
 execute as @e[tag=crystal_point] at @s run function ghost_action:game/mode/blasting/crystal/summon

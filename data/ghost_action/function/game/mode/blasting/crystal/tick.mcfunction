@@ -2,7 +2,7 @@ tag @e remove blasting_crystal_sneaking
 execute \
     as @e[tag=blasting_crystal] \
     at @s \
-    as @a[distance=..1] \
+    as @a[distance=..1,gamemode=!spectator] \
     if predicate ghost_action:is_shift \
     run tag @s add blasting_crystal_sneaking
 scoreboard players reset @a[tag=!blasting_crystal_sneaking] blasting_crystal_timer

@@ -1,0 +1,1 @@
+execute summon armor_stand run tag @s add death_point
